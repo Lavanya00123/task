@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav3Block{
+    font-weight: bold ;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    background-color: #B97A95;
+}
+img{
+    width: 90px;
+    height: 70px;
+}
+.menu3Block{
+    width:100%;
+}
+.menu3Block >ol{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+}

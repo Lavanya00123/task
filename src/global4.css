@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav4Block{
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    background-color: aquamarine;
+}
+img{
+    width: 120px;
+    height: 70px;
+}
+.menu4Block{
+    width:35%;
+}
+.menu4Block >ol{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
